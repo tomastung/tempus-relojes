@@ -1,0 +1,24 @@
+OROZCO LUXURY — CATÁLOGO DE RELOJES
+
+1) index.html
+   Abre este archivo en el navegador para usar el catálogo.
+
+2) css/styles.css
+   Estilos visuales y animaciones:
+   - Entrada suave de la página.
+   - Aparición escalonada de tarjetas.
+   - Efectos sutiles al pasar el cursor.
+   - Animación al actualizar precios y contador.
+   - Transiciones del carrito y notificaciones.
+   - Respeta la opción "reducir movimiento" del dispositivo.
+
+3) js/app.js
+   Catálogo, filtros, cantidades, carrito y pedido por WhatsApp.
+
+REGLA DE PRECIOS
+- 1 o 2 relojes en el carrito: precio mayorista + $50.000 COP por unidad.
+- 3 o más relojes en el carrito: precio mayorista + $30.000 COP por unidad.
+El cambio se aplica automáticamente al total de unidades del carrito, sin importar si son modelos diferentes.
+
+Las imágenes MF16 y MF17 están incluidas en /imagenes.
+Los precios mayoristas existentes y los productos se conservaron.
