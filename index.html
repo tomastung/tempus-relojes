@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Relojes Joefox, Loto, Kairos y Q&amp;Q</title><meta name="theme-color" content="#0B0B0C">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css"></head><body>
+<header><div class="wrap"><span class="logo">RELOJES&nbsp;JL</span><button class="cartbtn" id="open" aria-label="Abrir carrito">Carrito <b id="cnt">0</b></button></div></header>
+<div class="strip" id="strip" role="status"></div>
+<main class="wrap">
+<section class="hero">
+ <div>
+  <h1>Relojes para cada muñeca.</h1>
+  <p class="lead">Joefox, Loto, Kairos, Mini Focus, Naviforce, Poedagar, Curren y Q&amp;Q: deportivos, cronógrafos, clásicos, relojes de dama y parejas.</p>
+  <ul class="perks"><li>Estuche de lujo en casi todos</li><li>3 meses de garantía</li><li class="deal">Llevando 3 o más, cada reloj baja $20.000</li></ul>
+ </div>
+ <div class="heroimg"><img id="heroimg" alt="Reloj Joefox negro y dorado"></div>
+</section>
+<div class="bar"><h2>Catálogo</h2>
+ <div class="seg" id="fg" role="group" aria-label="Género"><button aria-pressed="true" data-g="todos">Todos</button><button aria-pressed="false" data-g="hombre">Hombre</button><button aria-pressed="false" data-g="dama">Dama</button><button aria-pressed="false" data-g="pareja">Parejas</button></div>
+ <div class="seg" id="fb" role="group" aria-label="Marca"><button aria-pressed="true" data-b="todas">Todas las marcas</button><button aria-pressed="false" data-b="Joefox">Joefox</button><button aria-pressed="false" data-b="Loto">Loto</button><button aria-pressed="false" data-b="Kairos">Kairos</button><button aria-pressed="false" data-b="Mini Focus">Mini Focus</button><button aria-pressed="false" data-b="Naviforce">Naviforce</button><button aria-pressed="false" data-b="Poedagar">Poedagar</button><button aria-pressed="false" data-b="Curren">Curren</button><button aria-pressed="false" data-b="Q&amp;Q">Q&amp;Q</button></div>
+</div>
+<div class="grid" id="grid"></div>
+<section class="info">
+ <div><h3>Garantía de 3 meses</h3><p>Cubre maquinaria, pila y filtración de agua. No cubre golpes ni mal uso de las piezas externas.</p></div>
+ <div><h3>Estuche de lujo</h3><p>Casi todos los relojes llegan en estuche, listos para regalar. Los Q&amp;Q de dama individuales no lo incluyen y se indica en cada uno.</p></div>
+ <div><h3>Pide por WhatsApp</h3><p>Arma tu carrito, escribe tu nombre y ciudad, y te confirmamos el pedido por chat.</p></div>
+</section>
+</main>
+<footer><div class="wrap">© Relojes JL. Precios en pesos colombianos (COP).</div></footer>
+<div id="toasts" role="status" aria-live="polite"></div>
+<div class="ov" id="ov"></div>
+<aside id="dr" aria-label="Carrito" aria-hidden="true"><header><h2>Tu pedido</h2><button class="x" id="close" aria-label="Cerrar carrito">×</button></header>
+<div class="items" id="items"></div>
+<div class="foot"><div class="tip" id="tip"></div><div class="prog"><i id="pg"></i></div><input id="nm" placeholder="Tu nombre" autocomplete="name"><input id="ct" placeholder="Ciudad y dirección de entrega" autocomplete="street-address">
+<div class="tot"><span>Total</span><span id="tot">$0</span></div><button class="wa" id="wa" disabled>Pedir por WhatsApp</button></div></aside>
+<script src="js/app.js" defer></script></body></html>
